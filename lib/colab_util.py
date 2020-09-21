@@ -39,6 +39,7 @@ from base64 import b64encode
 
 # Data structures and functions for rendering
 from pytorch3d.structures import Meshes
+from pytorch3d.renderer import TexturesVertex
 from pytorch3d.renderer import (
     look_at_view_transform,
     OpenGLOrthographicCameras, 
